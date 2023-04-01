@@ -9,7 +9,7 @@ alert(a)
 
 /*Задание 2
 Создайте переменную и присвойте ей значение года выпуска первого iPhone. Выведите значение переменной на экран.*/
-let firstIPhone=2007
+let yearFirstIPhoneRelease=2007
 alert(firstIPhone)
 
 /*Задание 3
@@ -52,8 +52,8 @@ num +=5
 num -=3
 num *=7
 num /=3
-num ++
-num --
+num++
+num--
 alert(num)
 
 /*Задание 8
