@@ -53,12 +53,12 @@
     line-height: 22px;
     color: #ffffff;
     margin-top: 44px;
-    &:hover{
+    &:hover {
       background: rgba(235, 68, 63, 1);
-      cursor: pointer;}
-
+      cursor: url(img/Vector\\(1\).svg);
     }
   }
+}
 
 .background {
   background-color: #000915;
@@ -71,15 +71,16 @@
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
-  &:hover{
-    border: 3px solid rgba(68, 210, 255, 1)
-    cursor: pointer;}
 
   &__image {
     position: relative;
     max-width: 378px;
     height: 300px;
     border-radius: 16px;
+    &:hover {
+      border: 3px solid rgba(68, 210, 255, 1);
+      cursor: url(img/Vector\\(1\).svg);
+    }
   }
   &__name {
     position: relative;
