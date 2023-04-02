@@ -1,0 +1,35 @@
+@media (min-width: 374px) and (max-width: 426px) {
+  .top {
+    height: 735px;
+    background-image: url(img/Rectangle\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .header {
+    padding: 0 16px;
+    &__heading {
+      font-size: 32px;
+      line-height: 39px;
+      text-align: center;
+      padding-top: 238px;
+    }
+    &__text {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 22px;
+      text-align: center;
+    }
+    &__button {
+      margin-top: 32px;
+      margin-left: 70px;
+      margin-right: 70px;
+    }
+  }
+  .main {
+    padding: 128px 16px;
+    &__image {
+      width: 342px;
+    }
+  }
+}
