@@ -54,7 +54,7 @@
 }
 .header__button:hover {
   background: rgb(235, 68, 63);
-  cursor: url(img/Vector\ \(1\).svg);
+  cursor: url(img/cursor.svg), pointer;
 }
 
 .background {
@@ -70,16 +70,26 @@
   flex-wrap: wrap;
   gap: 32px;
 }
-.main__image {
-  position: relative;
-  max-width: 378px;
+.main__link {
+  width: 377px;
   height: 300px;
+  position: relative;
+}
+.main__link:hover {
+  border: 3px solid rgb(68, 210, 255);
   border-radius: 16px;
+  cursor: url(img/cursor.svg), pointer;
+}
+.main__image {
+  border-radius: 16px;
+  width: 378px;
+  height: 300px;
 }
 .main__name {
-  position: relative;
-  bottom: 64px;
+  position: absolute;
+  bottom: 32px;
   left: 32px;
+  z-index: 1;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
@@ -119,7 +129,10 @@
   .main {
     padding: 128px 16px;
   }
+  .main__link {
+    width: 100%;
+  }
   .main__image {
-    width: 342px;
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
