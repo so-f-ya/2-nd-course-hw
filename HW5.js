@@ -33,7 +33,7 @@ console.log(squre2(7));
 
 function sayHello() {
   let i = prompt("Сколько Вам лет?");
-  if (i > 13) {
+  if (i >= 13) {
     alert("Добро пожаловать!");
   } else if (i >= 0 && i <= 12) {
     alert("Привет, друг!");
