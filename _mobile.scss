@@ -35,4 +35,26 @@
       width: 100%;
     }
   }
+  .game{
+    &__heading{
+      font-size: 32px;
+line-height: 39px;
+    }
+    &__text{
+      font-size: 14px;
+line-height: 22px;
+    }
+    &__image{
+      width: 100%
+      height: 100%;
+    }
+  }
+  .textBox{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  imageBox{
+    width: 100%;
+    height: 100%;
+  }
 }

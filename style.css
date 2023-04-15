@@ -97,6 +97,52 @@
   color: #ffffff;
 }
 
+.game {
+  height: 800px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.game__heading {
+  max-width: 377px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #ffffff;
+}
+.game__text {
+  max-width: 584px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+}
+.game__button {
+  width: 234.06px;
+  height: 48.6px;
+  border: none;
+  box-sizing: border-box;
+  padding: 13.03px 74.03px 13.03px 74.03px;
+  background: #9c0332;
+  border-radius: 30px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-top: 44px;
+}
+.game__image {
+  max-width: 485px;
+  max-height: 333px;
+}
+
 @media (min-width: 374px) and (max-width: 426px) {
   .top {
     height: 735px;
@@ -133,5 +179,21 @@
   }
   .main__image {
     width: 100%;
+  }
+  .game__heading {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .game__text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .game__image {
+    width: 344px;
+    height: 246px;
+  }
+  textBox {
+    display: flex;
+    flex-wrap: wrap;
   }
 }/*# sourceMappingURL=style.css.map */
