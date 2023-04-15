@@ -36,24 +36,28 @@
     }
   }
   .game{
+    padding: 51px 16px;
     &__heading{
       font-size: 32px;
-line-height: 39px;
+      line-height: 39px;
+      text-align: center;
     }
     &__text{
       font-size: 14px;
-line-height: 22px;
+      line-height: 22px;
+      text-align: center;
     }
     &__image{
-      width: 100%
+      width: 100%;
       height: 100%;
     }
   }
   .textBox{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
-  imageBox{
+  .imageBox{
     width: 100%;
     height: 100%;
   }

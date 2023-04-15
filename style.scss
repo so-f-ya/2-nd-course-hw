@@ -101,7 +101,7 @@
   }
 }
 .game {
-  height: 800px;
+  max-height: 800px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -123,8 +123,10 @@
     font-size: 18px;
     line-height: 32px;
     color: #ffffff;
+    margin-top: 32px;
+  
   }
-  &__button{
+  &__button {
     width: 234.06px;
     height: 48.6px;
     border: none;
@@ -138,17 +140,15 @@
     font-size: 18px;
     line-height: 22px;
     color: #ffffff;
-    margin-top: 44px;
+    margin-top: 32px;
   }
- &__image{
+  &__image {
     width: 485px;
     height: 333px;
   }
-  imageBox{
+  .imageBox {
     width: 485px;
     height: 333px;
   }
 }
-
-
 @import "mobile";

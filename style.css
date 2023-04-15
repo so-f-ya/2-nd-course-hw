@@ -98,7 +98,7 @@
 }
 
 .game {
-  height: 800px;
+  max-height: 800px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -121,6 +121,7 @@
   font-size: 18px;
   line-height: 32px;
   color: #ffffff;
+  margin-top: 32px;
 }
 .game__button {
   width: 234.06px;
@@ -136,11 +137,15 @@
   font-size: 18px;
   line-height: 22px;
   color: #ffffff;
-  margin-top: 44px;
+  margin-top: 32px;
 }
 .game__image {
-  max-width: 485px;
-  max-height: 333px;
+  width: 485px;
+  height: 333px;
+}
+.game .imageBox {
+  width: 485px;
+  height: 333px;
 }
 
 @media (min-width: 374px) and (max-width: 426px) {
@@ -180,20 +185,30 @@
   .main__image {
     width: 100%;
   }
+  .game {
+    padding: 51px 16px;
+  }
   .game__heading {
     font-size: 32px;
     line-height: 39px;
+    text-align: center;
   }
   .game__text {
     font-size: 14px;
     line-height: 22px;
+    text-align: center;
   }
   .game__image {
-    width: 344px;
-    height: 246px;
+    width: 100%;
+    height: 100%;
   }
-  textBox {
+  .textBox {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+  }
+  .imageBox {
+    width: 100%;
+    height: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -1,42 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework1</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-<div class="top">
-    <header class="header center">
+  </head>
+  <body>
+    <div class="top">
+      <header class="header center">
         <h1 class="header__heading">Добро пожаловать на мой сайт !</h1>
-        <p class="header__text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <b>поехали</b> и <b>приступай</b></p>
+        <p class="header__text">
+          Вам предстоит пройти несколько увлекательных игр. Если готов нажимай
+          <b>поехали</b> и <b>приступай</b>
+        </p>
         <button class="header__button">Поехали!</button>
-      </header>  
-</div>
-<div class="background">
-    <section class="main center">
-    <a class="main__link">
-        <img class="main__image" src="img/Rectangle 6.png" alt="Игра 1"> <div class="main__name">Игра 1</div></a>
-      <a class="main__link">
-        <img class="main__image" src="img/Rectangle 7.png" alt="Игра 2"> <div class="main__name">Игра 2</div></a>
-      <a class="main__link">
-        <img class="main__image" src="img/Rectangle 8.png" alt="Игра 3"> <div class="main__name">Игра 3</div></a>
-  </section>
-  <section class="game center">
-<div class="textBox">
-  <h2 class="game__heading">Времена года!</h2>
-<p class="game__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
-<button class="game__button">Играть!</button>
-</div>
-<div class="imageBox">
-  <img class = "game__image"  src="img/undraw_video_game_night_8h8m 1.svg" alt="game">
-</div>
-  </section>
-</div>
-</body>
+      </header>
+    </div>
+    <div class="background">
+      <section class="main center">
+        <a class="main__link">
+          <img class="main__image" src="img/Rectangle 6.png" alt="Игра 1" />
+          <div class="main__name">Игра 1</div></a
+        >
+        <a class="main__link">
+          <img class="main__image" src="img/Rectangle 7.png" alt="Игра 2" />
+          <div class="main__name">Игра 2</div></a
+        >
+        <a class="main__link">
+          <img class="main__image" src="img/Rectangle 8.png" alt="Игра 3" />
+          <div class="main__name">Игра 3</div></a
+        >
+      </section>
+      <section class="game center">
+        <div class="textBox">
+          <h2 class="game__heading">Времена года!</h2>
+          <p class="game__text">
+            Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы
+            узнаете к какому времени года он относится
+          </p>
+          <button class="game__button" onclick="Seasons();">Играть!</button>
+          <script src="game.js"></script>
+        </div>
+        <div class="imageBox">
+          <img
+            class="game__image"
+            src="img/undraw_video_game_night_8h8m 1.svg"
+            alt="game"
+          />
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
