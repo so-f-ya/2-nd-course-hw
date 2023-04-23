@@ -98,11 +98,14 @@
 }
 
 .game {
-  max-height: 800px;
+  height: 800px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+}
+.game_reverse {
+  flex-direction: row-reverse;
 }
 .game__heading {
   max-width: 377px;

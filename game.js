@@ -12,3 +12,18 @@ function Seasons() {
     alert("Ошибка, неверный месяц");
   }
 }
+
+function WordGame (){
+let words = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин']
+words = words.sort(() => Math.random() - 0.5);
+alert(words)
+let userWord1 = prompt("Введите первое слово");
+let userWord2 = prompt("Введите последнее слово");
+
+if (userWord1.toLowerCase() == words[0].toLowerCase() && userWord2.toLowerCase() == words[6].toLowerCase()) {
+  alert("Поздравляю, верно!");
+  } else if ((userWord1.toLowerCase() == words[0].toLowerCase() || userWord2.toLowerCase() == words[6].toLowerCase())) {
+    alert("Вы были близки к победе!");
+  } else {
+  alert("Неверно")}
+}
