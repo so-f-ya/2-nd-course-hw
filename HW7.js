@@ -5,15 +5,17 @@ console.log("js".toUpperCase());
 //Задание 2
 
 function searchStart(array, syllable) {
+  let newArray = [];
   array.forEach((word) => {
     if (word.toLowerCase().startsWith(syllable.toLowerCase())) {
-      console.log(word);
+      newArray.push(word);
     }
   });
+  return newArray;
 }
-searchStart(["Кошка", "Кит", "Комар", "Носорог"], "ко");
-searchStart(["яблоко", "груша", "гриб", "огурец"], "гру");
-searchStart(["Дом", "Банк", "Больница", "Театр"], "Кино");
+console.log(searchStart(["Кошка", "Кит", "Комар", "Носорог"], "ко"));
+console.log(searchStart(["яблоко", "груша", "гриб", "огурец"], "гру"));
+console.log(searchStart(["Дом", "Банк", "Больница", "Театр"], "Кино"));
 
 //Задание 3
 
@@ -69,6 +71,8 @@ randomNumber(-20, 20);
 
 let todayDate = new Date("4/23/2023");
 console.log(todayDate);
+//let todayDate = new Date();
+//console.log(todayDate)
 
 //Задание 9
 
@@ -122,3 +126,11 @@ let fullDate =
   myDate.getSeconds();
 
 console.log(fullDate);
+
+/*function formatDate(date) {
+  const locale = 'ru-RU'
+  const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+  return `Дата: ${date.toLocaleString(locale, options)} - это ${date.toLocaleString(locale, {weekday: 'long'})}.
+Время: ${date.toLocaleTimeString(locale)}`
+}
+console.log(formatDate(new Date()));*/
